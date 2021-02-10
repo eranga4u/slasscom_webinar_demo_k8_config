@@ -1,1 +1,1 @@
-# K8 configurations yml
+# K8s configurations yml
