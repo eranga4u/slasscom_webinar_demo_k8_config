@@ -1,1 +1,1 @@
-# slasscom_webinar_demo_k8_config
+# K8 configurations yml
