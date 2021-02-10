@@ -15,6 +15,7 @@ spec:
       containers:
         - name: student-svc
           image: eranga4u/demo:0.0.2-SNAPSHOT
+          args: ["--spring.profiles.active=dev"]
           ports:
             - containerPort: 8081
           livenessProbe:
@@ -24,4 +25,5 @@ spec:
           env:
             - name: MONGO_URL
               value: mongodb://mongo:27017/demo
+              
           imagePullPolicy: Always
