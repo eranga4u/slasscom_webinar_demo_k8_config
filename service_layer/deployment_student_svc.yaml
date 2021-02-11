@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: student-svc
-          image: eranga4u/demo:0.0.2-SNAPSHOT
-          args: ["--spring.profiles.active=dev"]
+          image: eranga4u/demo:0.0.4-SNAPSHOT
           ports:
             - containerPort: 8081
           livenessProbe:
