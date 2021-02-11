@@ -23,6 +23,6 @@ spec:
                port: 8081   
           env:
             - name: MONGO_URL
-              value: mongodb://mongo:27017/demo
+              value: mongodb://10.152.183.56:27017/demo
               
           imagePullPolicy: Always
